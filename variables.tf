@@ -1,5 +1,5 @@
 variable "ldn-ami-id" {
-  default = "ami-060c4f2d72966500a"
+  default = "ami-0d729d2846a86a9e7"
 }
 
 variable "london-subnet-id" {
