@@ -4,8 +4,9 @@ resource "aws_instance" "my_test_ldn" {
   instance_type               = var.instance-type
   key_name                    = "OakridgeAWSLinuxKey"
   associate_public_ip_address = true
+  provider = london
 
   tags = {
-      drift_example = "v1"
+    drift_example = "v1"
   }
 }
