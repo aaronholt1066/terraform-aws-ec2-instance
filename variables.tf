@@ -7,5 +7,5 @@ variable "london-subnet-id" {
 }
 
 variable "instance-type" {
-  default = "ami-0d729d2846a86a9e7"
+  default = "t2.micro"
 }
